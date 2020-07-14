@@ -220,7 +220,7 @@
 <script>
 import WorkHistory from "./components/WorkHistory";
 export default {
-  name: "App",
+  name: "App2",
   components: {
     WorkHistory,
   },

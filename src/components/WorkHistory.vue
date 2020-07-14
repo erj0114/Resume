@@ -26,6 +26,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.work-history {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 10px;
+}
+.left-side {
+  min-width: 100px;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.right-side {
+  padding-left: 10px;
+}
 .position {
   font-weight: bold;
 }
