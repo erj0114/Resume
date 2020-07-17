@@ -3,24 +3,24 @@
     <!-- Left Side START -->
     <div id="left-side">
       <h1>Eric Johnson</h1>
-      
       <h4><div class="profession">Web Developer</div></h4>
       <hr />
       <h2><div class="contact">Contact</div></h2>
       <hr />
-      <div>Address</div>
+      <div>Address:</div>
       <div>Western Springs, IL, 60558</div>
       <br />
-      <div>Phone</div>
-      <div>(708) 217-4916</div>
+      <div>Phone:</div>
+      <a href="tel:+1-708-217-4916">(708) 217-4916</a><br />
       <br />
-      <div>E-mail</div>
-      <div>Eric@IMEJTech.com</div>
-
+      <div>E-mail:</div>
+      <a href="mailto:Eric@ImejTech.com">
+        <i class="far fa-envelope"></i>Eric@ImejTech.com
+      </a>
       <hr />
       <h2><div class="skills">Skills</div></h2>
       <hr />
-      
+
       <div>Content marketing strategy</div>
       <br />
       <div>Web user interfaces</div>
@@ -31,14 +31,38 @@
       <br />
       <div>Programming</div>
 
-<hr />
+      <hr />
       <h2>Education</h2>
       <hr />
       <h4><div class="education">Cerro Coso Community College</div></h4>
-      <div> Associate of Science</div>
+      <div>Associate of Science</div>
+      <hr />
+
+      <h2>Portfolio</h2>
+      <hr />
+      <!-- <h4 class="portfolio">
+        AmericanEnergyConsulting.com <br> 
+        ArtworkOfChicago.com <br> 
+        ChicagoRiverPaddle.com<br>
+        Erj-Art.com <br> 
+        ImejTech.com
+      </h4> -->
+      <div>
+        <a href="http://www.AmericanEnergyConsulting.com"
+          >AmericanEnergyConsulting</a
+        ><br /><br />
+      </div>
+      <div>
+        <a href="http://www.ArtworkOfChicago.com">ArtworkOfChicago</a
+        ><br /><br />
+      </div>
+      <div>
+        <a href="http://www.ChicagoRiverPaddle.com">ChicagoRiverPaddle</a
+        ><br /><br />
+      </div>
+      <div><a href="http://www.Erj-Art.com">Erj-Art</a><br /><br /></div>
+      <div><a href="http://www.ImejTech.com">ImejTech</a><br /><br /></div>
     </div>
-
-
 
     <!-- Left Side END -->
 
@@ -66,8 +90,9 @@
         <template v-slot:experience>
           <ul>
             <li>
-              Used various technologies, including VUE and Bootstrap to build
-              and make code repairs to optimize corporate websites.
+              Used various technologies, including VUE, Bootstrap, FileZilla,
+              Node.js, Photoshop, GIMP, PostgreSQL 12, and Ubuntu 18.04 LTS. To
+              build and make code repairs to optimize corporate websites.
             </li>
             <li>
               Created site layout and user interface using HTML and CSS
@@ -234,16 +259,21 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
-
   display: flex;
   flex-direction: row;
 }
 
 #left-side {
   min-width: 300px;
-  background: rgb(44, 75, 252);
+  background: rgb(49, 60, 124);
   color: white;
   padding: 10px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(0, 252, 252);
 }
 
 #right-side {
