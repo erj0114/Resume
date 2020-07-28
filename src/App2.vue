@@ -30,23 +30,17 @@
       <div>Operating systems</div>
       <br />
       <div>Programming</div>
-
+      <br /><br />
       <hr />
       <h2>Education</h2>
       <hr />
-      <h4><div class="education">Cerro Coso Community College</div></h4>
+      <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a
+      ><br /><br />
       <div>Associate of Science</div>
       <hr />
 
       <h2>Portfolio</h2>
       <hr />
-      <!-- <h4 class="portfolio">
-        AmericanEnergyConsulting.com <br> 
-        ArtworkOfChicago.com <br> 
-        ChicagoRiverPaddle.com<br>
-        Erj-Art.com <br> 
-        ImejTech.com
-      </h4> -->
       <div>
         <a href="http://www.AmericanEnergyConsulting.com"
           >AmericanEnergyConsulting</a
@@ -262,9 +256,13 @@ export default {
   display: flex;
   flex-direction: row;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 #left-side {
-  min-width: 300px;
+  min-width: 120px;
   background: rgb(49, 60, 124);
   color: white;
   padding: 10px;
@@ -279,5 +277,13 @@ a:hover {
 #right-side {
   padding: 10px;
   font-size: 11pt;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    flex-direction: column;
+    margin-top: 0px;
+    display: flex;
+  }
 }
 </style>

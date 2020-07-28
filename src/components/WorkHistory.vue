@@ -45,4 +45,12 @@ export default {
 .company-and-location {
   font-style: italic;
 }
+@media (max-width: 768px) { 
+  .work-history {
+    flex-direction: column;
+  }
+  .right-side {
+    padding-left: 0px;
+  }
+}
 </style>
