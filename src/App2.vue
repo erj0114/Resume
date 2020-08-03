@@ -73,7 +73,7 @@
       <hr />
       <work-history>
         <template v-slot:date>
-          2018-Current
+          2019-Current
         </template>
         <template v-slot:position>
           Web Developer
