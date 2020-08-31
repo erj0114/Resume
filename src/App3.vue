@@ -103,50 +103,53 @@
       <hr />
       <work-history>
         <template v-slot:date>
-          Projects and Tools used
+          Started in 2018 
         </template>
         <template v-slot:position>
           Web Developer
         </template>
         <template v-slot:companyAndLocation>
-          Eric Johnson
+          My journey of web development
         </template>
         <template v-slot:experience>
-          <ul>
+          <ol>
             <li>
-              My first introduction to Web Development was using WordPress. I
+              My introduction to Web Development was using WordPress. I
               got into web development by building a website focused on my
-              artwork that I wanted to show off and sell. I then started taking
+              artwork that I wanted to show off and sell. 
+            </li>
+            <li>
+              I then started taking
               classes from code camp and learned HTML and CSS. I then started
               re-building my artwork site from scratch using Vue.js
             </li>
             <li>
-              My second project was a website for artist to sign up and join a
+              The next project was a website for artist to sign up and join a
               social network to show off thier artwork. I built that website
               from scratch using Vue.js
             </li>
             <li>
-              My third project was for AmericanEnergyConsulting. I was hired on
+              I then took on project was for AmericanEnergyConsulting. I was hired on
               to build a website and built the website using Squarespace. The
               reason I used Squarespace or Wordpress at the time was to build a
               site that the client can maintain for smaller projects.
             </li>
             <li>
-              My forth project was building a website for my business. I built
+              The next project was building a website for my business. I built
               the website from scratch using Vue.js to get more familar with
               Vue.
             </li>
             <li>
-              My fifth project was building a new website for my seasonal
+              My largest project was building a new website for my seasonal
               employer. I built the website from scratch using Vue.js because
               it's a larger project.
             </li>
             <li>
-              My sixth project was building a website for my resume. I built the
+              The most current project was building a website for my resume. I built the
               website from scratch using Vue.js to show that I know how to build
               websites within looking at my resume.
             </li>
-          </ul>
+          </ol>
         </template>
       </work-history>
 
