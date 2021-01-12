@@ -11,13 +11,13 @@
       <div>Western Springs, IL, 60558</div>
       <br />
       <div>Phone:</div>
-      <a href="tel:+1-708-217-4916">(708) 217-4916</a><br />
+      <a href="tel:+1-312-857-3866">‪(312) 857-3866‬</a><br />
       <br />
       <div>E-mail:</div>
       <a href="mailto:Eric@ImejTech.com">
         <i class="far fa-envelope"></i>Eric@ImejTech.com
       </a>
-        <br /><br />
+      <br /><br />
       <hr />
       <h2><div class="skills">Skills</div></h2>
       <hr />
@@ -34,18 +34,18 @@
       <hr />
       <h2>Education</h2>
       <hr />
-      <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a><br /><br />
-      <div>Associate Degree</div><br />
+      <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a
+      ><br /><br />
+      <div>Associate Degree</div>
+      <br />
       <div>Code Camp View Responsive Web Design Certification</div>
-        <br /><br />
-       <hr />
-      
+      <br /><br />
+      <hr />
     </div>
     <!-- Left Side END -->
 
     <!-- Right Side START -->
     <div id="right-side">
-      <hr />
       <div class="summary">
         Self-motivated Web Developer with high level of experience working on
         multiple projects. Passionate and hardworking with penchant for meeting
@@ -103,7 +103,7 @@
       <hr />
       <work-history>
         <template v-slot:date>
-          Started in 2018 
+          Started in 2018
         </template>
         <template v-slot:position>
           Web Developer
@@ -114,46 +114,38 @@
         <template v-slot:experience>
           <ol>
             <li>
-              My introduction to Web Development was using WordPress. I
-              got into web development by building a website focused on my
-              artwork that I wanted to show off and sell. 
+              My introduction to Web Development was using WordPress. I got into
+              web development by building a website focused on my artwork that I
+              wanted to show off and sell.
             </li>
             <li>
-              I then started taking
-              classes from code camp and learned HTML and CSS. I then started
-              re-building my artwork site from scratch using Vue.js
-            </li>
-            <li>
-              The next project was a website for artist to sign up and join a
-              social network to show off thier artwork. I built that website
+              I took classes from code camp and learned how to build websites
               from scratch using Vue.js
             </li>
             <li>
-              I then took on project was for AmericanEnergyConsulting. I was hired on
-              to build a website and built the website using Squarespace. The
-              reason I used Squarespace or Wordpress at the time was to build a
-              site that the client can maintain for smaller projects.
+              The next project was a website for artist to sign up and join a
+              social network for artwork.
+            </li>
+            <li>
+              I was hired on to build a website using Squarespace. It's
+              what I thought would be best for the client to potentially
+              maintain it himself for his smaller project.
             </li>
             <li>
               The next project was building a website for my business. I built
-              the website from scratch using Vue.js to get more familar with
-              Vue.
+              the website from scratch using Vue.js to get more familar.
             </li>
             <li>
               My largest project was building a new website for my seasonal
-              employer. I built the website from scratch using Vue.js because
-              it's a larger project.
+              employer.
             </li>
             <li>
-              The most current project was building a website for my resume. I built the
-              website from scratch using Vue.js to show that I know how to build
-              websites within looking at my resume.
+              The most current project was building a website for my resume.
             </li>
           </ol>
         </template>
       </work-history>
 
-      <hr />
       <h2>Portfolio</h2>
       <hr />
       <div>
@@ -320,6 +312,11 @@ export default {
 </script>
 
 <style>
+h1,
+h2,
+h4 {
+  margin: 5px;
+}
 .portfolio {
   color: black;
 }
@@ -355,11 +352,24 @@ a:hover {
   font-size: 11pt;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #app {
     flex-direction: column;
     margin-top: 0px;
     display: flex;
+  }
+}
+@media print {
+  #app {
+    margin-top: 0px;
+    font-size: 12pt;
+  }
+  #left-side {
+    color: black;
+    background: white;
+  }
+  a {
+    color: black;
   }
 }
 </style>
