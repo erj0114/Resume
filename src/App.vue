@@ -11,9 +11,9 @@
       <div>Address</div>
       <div>Chicago, IL</div>
       <br />
-      <div>Phone</div>
+      <!-- <div>Phone</div>
       <div>‪(312) 857-3866‬</div>
-      <br />
+      <br /> -->
       <!-- <div>E-mail</div>
       <div>Eric@IMEJTech.com</div> -->
 
@@ -34,7 +34,7 @@
 <hr />
       <h2>Education</h2>
       <hr />
-      <h4><div class="education">Cerro Coso Community College</div></h4>
+      <!-- <h4><div class="education">Cerro Coso Community College</div></h4> -->
       <div> Associate of Science</div>
     </div>
 
