@@ -14,8 +14,8 @@
       <div>Phone</div>
       <div>‪(312) 857-3866‬</div>
       <br />
-      <div>E-mail</div>
-      <div>Eric@IMEJTech.com</div>
+      <!-- <div>E-mail</div>
+      <div>Eric@IMEJTech.com</div> -->
 
       <hr />
       <h2><div class="skills">Skills</div></h2>
