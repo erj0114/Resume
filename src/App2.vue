@@ -8,7 +8,7 @@
       <h2><div class="contact">Contact</div></h2>
       <hr />
       <div>Address:</div>
-      <div>Western Springs, IL, 60558</div>
+      <div>Chicago, IL, 60604</div>
       <br />
       <div>Phone:</div>
       <a href="tel:+1-312-857-3866">‪(312) 857-3866‬</a><br />
@@ -30,14 +30,14 @@
       <div>Operating systems</div>
       <br />
       <div>Programming</div>
-      <br /><br />
+      <br /><br />  
       <hr />
-      <h2>Education</h2>
+      <!-- <h2>Education</h2>
       <hr />
       <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a
       ><br /><br />
       <div>Associate of Science</div>
-      <hr />
+      <hr /> -->
 
       <h2>Portfolio</h2>
       <hr />

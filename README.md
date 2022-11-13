@@ -1,5 +1,7 @@
 # resume
 
+Use version node 16
+
 ## Project setup
 ```
 npm install

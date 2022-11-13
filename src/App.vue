@@ -9,7 +9,7 @@
       <h2><div class="contact">Contact</div></h2>
       <hr />
       <div>Address</div>
-      <div>Western Springs, IL, 60558</div>
+      <div>Chicago, IL</div>
       <br />
       <div>Phone</div>
       <div>‪(312) 857-3866‬</div>
