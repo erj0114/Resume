@@ -6,13 +6,13 @@
       
       <h4><div class="profession">Web Developer</div></h4>
       <hr />
-      <h2><div class="contact">Contact</div></h2>
+      <!-- <h2><div class="contact">Contact</div></h2>
       <hr />
       <div>Address</div>
-      <div>Chicago, IL</div>
-      <br />
+      <div>United States of America</div>
+      <br /> -->
       <!-- <div>Phone</div>
-      <div>‪(312) 857-3866‬</div>
+      <div>‪000-000-0000‬</div>
       <br /> -->
       <!-- <div>E-mail</div>
       <div>Eric@IMEJTech.com</div> -->
