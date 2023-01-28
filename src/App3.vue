@@ -6,13 +6,13 @@
       <h4><div class="profession">Web Developer</div></h4>
       <hr />
       <h2><div class="contact">Contact</div></h2>
-      <hr />
+      <!-- <hr />
       <div>Address:</div>
       <div>Chicago, IL</div>
-      <br />
-      <div>Phone:</div>
+      <br /> -->
+      <!-- <div>Phone:</div>
       <a href="tel:+1-312-857-3866">‪(312) 857-3866‬</a><br />
-      <br />
+      <br /> -->
       <div>E-mail:</div>
       <a href="mailto:Eric@ImejTech.com">
         <i class="far fa-envelope"></i>Eric@ImejTech.com
@@ -36,7 +36,7 @@
       <hr />
       <!-- <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a -->
       <!-- <br /><br /> -->
-      <div>Associate Degree</div>
+      <div>Computer Science Major</div>
       <br />
       <div>Code Camp View Responsive Web Design Certification</div>
       <br /><br />
@@ -325,7 +325,7 @@ h4 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
