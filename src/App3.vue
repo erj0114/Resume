@@ -4,43 +4,44 @@
     <div id="left-side">
       <h1>Eric Johnson</h1>
       <h4><div class="profession">Web Developer</div></h4>
+      <br />
       <hr />
       <h2><div class="contact">Contact</div></h2>
-      <!-- <hr />
-      <div>Address:</div>
-      <div>Chicago, IL</div>
-      <br /> -->
+      <hr />
+      <!-- <div>Address:</div> -->
+      <!-- <div>Chicago, IL</div> -->
       <!-- <div>Phone:</div>
-      <a href="tel:+1-312-857-3866">‪(312) 857-3866‬</a><br />
+      <a href="tel:+1-708-217-4916">‪(708) 217-4916‬</a><br />
       <br /> -->
+      
       <div>E-mail:</div>
       <a href="mailto:Eric@ImejTech.com">
         <i class="far fa-envelope"></i>Eric@ImejTech.com
       </a>
+      or
+      <br />
+      <a href="mailto:Erj0114@Att.net">
+        <i class="far fa-envelope"></i>Erj0114@att.net
+      </a>
       <br /><br />
-      <hr />
-      <h2><div class="skills">Skills</div></h2>
-      <hr />
-      <div>Content marketing strategy</div>
-      <br />
-      <div>Web user interfaces</div>
-      <br />
-      <div>Website optimization</div>
-      <br />
-      <div>Operating systems</div>
-      <br />
-      <div>Programming</div>
-      <br />
       <hr />
       <h2>Education</h2>
       <hr />
       <!-- <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a -->
       <!-- <br /><br /> -->
-      <div>Computer Science Major</div>
+      <div>
+        B.S. in Computer Science, Northeastern Illinois University, 2025.
+      </div>
       <br />
-      <div>Code Camp View Responsive Web Design Certification</div>
-      <br /><br />
+      <div>A.A. Behavioral Science, Cerro Coso Community College, 2017.</div>
+      <br />
       <hr />
+      <h2>Certifications</h2>
+      <hr />
+      <div>NEIU Eagle HackFest, First place, 2023.</div>
+      <br />
+      <div>Code Camp, View Responsive Web Design Certification, 2019.</div>
+      <br />
     </div>
     <!-- Left Side END -->
 
@@ -56,15 +57,9 @@
       <h2>Recent Work History</h2>
       <hr />
       <work-history>
-        <template v-slot:date>
-          2019-Current
-        </template>
-        <template v-slot:position>
-          Web Developer
-        </template>
-        <template v-slot:companyAndLocation>
-          IMEJ Tech, Chicago IL
-        </template>
+        <template v-slot:date> 2019-Current </template>
+        <template v-slot:position> Web Developer </template>
+        <template v-slot:companyAndLocation> IMEJ Tech, Chicago IL </template>
         <template v-slot:experience>
           <ul>
             <li>
@@ -102,12 +97,8 @@
       <h2>About</h2>
       <hr />
       <work-history>
-        <template v-slot:date>
-          Started in 2018
-        </template>
-        <template v-slot:position>
-          Web Developer
-        </template>
+        <template v-slot:date> Started in 2018 </template>
+        <template v-slot:position> Web Developer </template>
         <template v-slot:companyAndLocation>
           My journey of web development
         </template>
@@ -127,9 +118,9 @@
               social network for artwork.
             </li>
             <li>
-              I was hired on to build a website using Squarespace. It's
-              what I thought would be best for the client to potentially
-              maintain it himself for his smaller project.
+              I was hired on to build a website using Squarespace. It's what I
+              thought would be best for the client to potentially maintain it
+              himself for his smaller project.
             </li>
             <li>
               The next project was building a website for my business. I built
@@ -150,30 +141,30 @@
       <hr />
       <div>
         <a class="portfolio" href="http://www.AmericanEnergyConsulting.com"
-          >AmericanEnergyConsulting</a
+          >AmericanEnergyConsulting.com</a
         ><br /><br />
       </div>
       <div>
-        <a class="portfolio" href="http://www.ArtworkOfChicago.com"
-          >ArtworkOfChicago</a
+        <a class="portfolio" href="https://chicago-artwork.com/"
+          >Chicago-Artwork.com</a
         ><br /><br />
       </div>
       <div>
-        <a class="portfolio" href="http://www.ChicagoRiverPaddle.com"
-          >ChicagoRiverPaddle</a
+        <a class="portfolio" href="https://www.ChicagoRiverPaddle.com"
+          >ChicagoRiverPaddle.com</a
         ><br /><br />
       </div>
       <div>
-        <a class="portfolio" href="http://www.Erj-Art.com">Erj-Art</a
+        <a class="portfolio" href="https://artist-erj.com/#/">Artist-Erj.com</a
         ><br /><br />
       </div>
       <div>
-        <a class="portfolio" href="http://EricJohnsonResume.com"
-          >EricJohnsonResume</a
+        <a class="portfolio" href="https://EricJohnsonResume.com"
+          >EricJohnsonResume.com</a
         ><br /><br />
       </div>
       <div>
-        <a class="portfolio" href="http://www.ImejTech.com">ImejTech</a
+        <a class="portfolio" href="https://www.ImejTech.com">ImejTech.com</a
         ><br /><br />
         <hr />
       </div>

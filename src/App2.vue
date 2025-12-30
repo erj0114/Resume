@@ -10,8 +10,8 @@
       <div>Address:</div>
       <div>Chicago, IL, 60604</div>
       <br />
-      <div>Phone:</div>
-      <a href="tel:+1-312-857-3866">‪(312) 857-3866‬</a><br />
+      <!-- <div>Phone:</div>
+      <a href="tel:+00000000">‪  000000000  ‬</a><br /> -->
       <br />
       <div>E-mail:</div>
       <a href="mailto:Eric@ImejTech.com">
@@ -27,7 +27,7 @@
       <br />
       <div>Website optimization</div>
       <br />
-      <div>Operating systems</div>
+      <div>Development</div>
       <br />
       <div>Programming</div>
       <br /><br />  
@@ -42,20 +42,19 @@
       <h2>Portfolio</h2>
       <hr />
       <div>
-        <a href="http://www.AmericanEnergyConsulting.com"
-          >AmericanEnergyConsulting</a
+        <a href="http://www.AmericanEnergyConsulting.com">AmericanEnergyConsulting.com</a
         ><br /><br />
       </div>
       <div>
-        <a href="http://www.ArtworkOfChicago.com">ArtworkOfChicago</a
+        <a href="https://www.Art-Chicago.com">Art-Chicago.com</a
         ><br /><br />
       </div>
       <div>
-        <a href="http://www.ChicagoRiverPaddle.com">ChicagoRiverPaddle</a
+        <a href="https://www.ChicagoRiverPaddle.com">ChicagoRiverPaddle.com</a
         ><br /><br />
       </div>
-      <div><a href="http://www.Erj-Art.com">Erj-Art</a><br /><br /></div>
-      <div><a href="http://www.ImejTech.com">ImejTech</a><br /><br /></div>
+      <div><a href="https://www.Artist-Erj.com">Artist-Erj.com</a><br /><br /></div>
+      <div><a href="https://www.ImejTech.com">ImejTech.com</a><br /><br /></div>
     </div>
 
     <!-- Left Side END -->
