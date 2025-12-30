@@ -8,16 +8,20 @@
       <hr />
       <h2><div class="contact">Contact</div></h2>
       <hr />
+      <a href="https://www.linkedin.com/in/eric-j-a1781211a/">LinkedIn</a>
+      <br />
+      <br />
       <!-- <div>Address:</div> -->
       <!-- <div>Chicago, IL</div> -->
       <!-- <div>Phone:</div>
       <a href="tel:+1-708-217-4916">‪(708) 217-4916‬</a><br />
       <br /> -->
-      
+
       <div>E-mail:</div>
       <a href="mailto:Eric@ImejTech.com">
         <i class="far fa-envelope"></i>Eric@ImejTech.com
       </a>
+      <br />
       or
       <br />
       <a href="mailto:Erj0114@Att.net">
@@ -30,28 +34,26 @@
       <!-- <a href="https://www.cerrocoso.edu/">Cerro Coso Community College</a -->
       <!-- <br /><br /> -->
       <div>
-        B.S. in Computer Science, Northeastern Illinois University, 2025.
+       B.S. in Computer Science, Northeastern Illinois University, 2025.
       </div>
       <br />
-      <div>A.A. Behavioral Science, Cerro Coso Community College, 2017.</div>
+      <div>A.A. in Behavioral Science, Cerro Coso Community College, 2017.</div>
       <br />
       <hr />
       <h2>Certifications</h2>
       <hr />
       <div>NEIU Eagle HackFest, First place, 2023.</div>
       <br />
-      <div>Code Camp, View Responsive Web Design Certification, 2019.</div>
-      <br />
-    </div>
-    <!-- Left Side END -->
+      <a href="https://www.freecodecamp.org/certification/erj0114/responsive-web-design">FreeCodeCamp.com</a> Responsive Web Design Certification, 2019.      
+    </div> 
+      <!-- Left Side END -->
 
     <!-- Right Side START -->
     <div id="right-side">
       <div class="summary">
-        Self-motivated Web Developer with high level of experience working on
-        multiple projects. Passionate and hardworking with penchant for meeting
-        deadlines. Interested in role with company promoting best practices and
-        offering diverse customer projects.
+        Self-motivated Web Developer with strong experience delivering projects
+        on schedule. Committed to best practices, code quality, and contributing
+        to diverse, customer-focused solutions.
       </div>
       <hr />
       <h2>Recent Work History</h2>
@@ -63,31 +65,21 @@
         <template v-slot:experience>
           <ul>
             <li>
-              Used various technologies, including Vue.js, Bootstrap, FileZilla,
-              Node.js, Photoshop, GIMP, PostgreSQL 12, and Ubuntu 18.04 LTS. To
-              build and make code repairs to optimize corporate websites.
+              Developed, optimized, and maintained corporate websites using Vue.js, Node.js, PHP, JavaScript, SQL, PostgreSQL, and Linux-based environments.
             </li>
             <li>
-              Created site layout and user interface using HTML and CSS
-              practices.
+              Designed and implemented responsive user interfaces using HTML, CSS, and Bootstrap best practices.
             </li>
             <li>
-              Used programming capabilities in PHP, SQL and JavaScript and other
-              libraries as needed.
+              Converted design mockups into functional web solutions using HTML, JavaScript, AJAX, and JSON.
             </li>
-            <li>Converted mockups into HTML, JavaScript, AJAX and JSON.</li>
+            <li>Built and repaired application code to improve performance, reliability, and maintainability.</li>
             <li>
-              Tested websites and performed troubleshooting prior to deployment.
-            </li>
-            <li>
-              Researched new technologies, software packages and hardware
-              products for use in website projects.
+              Tested, debugged, and deployed websites, ensuring cross-browser compatibility across Chrome, Firefox, and Safari.
             </li>
             <li>
-              Designed sites to be compatible with top browsers, including
-              Firefox, Chrome and Safari.
+              Built and maintained websites from scratch as well as using CMS platforms including WordPress and Squarespace.
             </li>
-            <li>Built Websites from Scratch, Squarespace, and WordPress.</li>
           </ul>
         </template>
       </work-history>
@@ -103,37 +95,11 @@
           My journey of web development
         </template>
         <template v-slot:experience>
-          <ol>
+          <ul>
             <li>
-              My introduction to Web Development was using WordPress. I got into
-              web development by building a website focused on my artwork that I
-              wanted to show off and sell.
+             I began web development with WordPress, creating a site to showcase and sell my artwork. After completing Code Camp, I built websites from scratch using Vue.js, including a social network for artists and my own business site. I also developed client websites on Squarespace for easy maintenance. My largest project was a full rebuild for my seasonal employer, and most recently, I created a personal resume website to showcase my skills and portfolio.
             </li>
-            <li>
-              I took classes from code camp and learned how to build websites
-              from scratch using Vue.js
-            </li>
-            <li>
-              The next project was a website for artist to sign up and join a
-              social network for artwork.
-            </li>
-            <li>
-              I was hired on to build a website using Squarespace. It's what I
-              thought would be best for the client to potentially maintain it
-              himself for his smaller project.
-            </li>
-            <li>
-              The next project was building a website for my business. I built
-              the website from scratch using Vue.js to get more familar.
-            </li>
-            <li>
-              My largest project was building a new website for my seasonal
-              employer.
-            </li>
-            <li>
-              The most current project was building a website for my resume.
-            </li>
-          </ol>
+          </ul>
         </template>
       </work-history>
 
